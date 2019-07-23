@@ -1,0 +1,41 @@
+[200.010299683] 2019-07-23 14:16:02,140 - INFO - launcher: Starting sanity checks
+[201.011419296] 2019-07-23 14:16:02,141 - INFO - launcher: Checking for Python 3.5+
+[201.011419296] 2019-07-23 14:16:02,141 - INFO - launcher: Checking console encoding
+[202.011823654] 2019-07-23 14:16:02,142 - INFO - launcher: Setting console encoding to UTF-8
+[202.011823654] 2019-07-23 14:16:02,142 - INFO - launcher: Ensuring we're in the right environment
+[215.013742447] 2019-07-23 14:16:02,155 - INFO - launcher: Adding local bins/ folder to path
+[3810.215711594] 2019-07-23 14:16:05,750 - INFO - launcher: Required checks passed.
+[3812.216758728] 2019-07-23 14:16:05,752 - INFO - launcher: Optional checks passed.
+[3814.216136932] 2019-07-23 14:16:05,754 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[9.1375110149383545] 2019-07-23 14:16:11,077 - WARNING - musicbot.config | In config.py::MainThread(43052), line 120 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[9.1395299434661865] 2019-07-23 14:16:11,079 - INFO - musicbot.config | In config.py::MainThread(43052), line 131 in run_checks: Using i18n: config/i18n/en.json
+[9.1495163440704346] 2019-07-23 14:16:11,089 - DEBUG - musicbot.bot | In bot.py::MainThread(43052), line 226 in _setup_logging: Set logging level to INFO
+[9.1575150489807129] 2019-07-23 14:16:11,097 - DEBUG - musicbot.json | In json.py::MainThread(43052), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[9.3605268001556396] 2019-07-23 14:16:11,300 - INFO - musicbot.bot | In bot.py::MainThread(43052), line 91 in __init__: Starting MusicBot release-120519
+[9.3615238666534424] 2019-07-23 14:16:11,301 - WARNING - musicbot.bot | In bot.py::MainThread(43052), line 94 in __init__: Autoplaylist is empty, disabling.
+[13.1057362556457520] 2019-07-23 14:16:15,046 - DEBUG - musicbot.bot | In bot.py::MainThread(43052), line 949 in on_ready: Connection established, ready to go.
+[13.1067390441894531] 2019-07-23 14:16:15,047 - DEBUG - musicbot.bot | In bot.py::MainThread(43052), line 340 in _cache_app_info: Caching app info
+[13.2957465648651123] 2019-07-23 14:16:15,236 - DEBUG - musicbot.bot | In bot.py::MainThread(43052), line 771 in _scheck_ensure_env: Ensuring data folders exist
+[13.3007488250732422] 2019-07-23 14:16:15,241 - DEBUG - musicbot.bot | In bot.py::MainThread(43052), line 787 in _scheck_server_permissions: Checking server permissions
+[13.3007488250732422] 2019-07-23 14:16:15,241 - DEBUG - musicbot.bot | In bot.py::MainThread(43052), line 791 in _scheck_autoplaylist: Auditing autoplaylist
+[13.3007488250732422] 2019-07-23 14:16:15,241 - DEBUG - musicbot.bot | In bot.py::MainThread(43052), line 795 in _scheck_configs: Validating config
+[13.3017466068267822] 2019-07-23 14:16:15,242 - DEBUG - musicbot.config | In config.py::MainThread(43052), line 228 in async_validate: Validating options...
+[13.3017466068267822] 2019-07-23 14:16:15,242 - DEBUG - musicbot.bot | In bot.py::MainThread(43052), line 798 in _scheck_configs: Validating permissions config
+[13.3017466068267822] 2019-07-23 14:16:15,242 - DEBUG - musicbot.permissions | In permissions.py::MainThread(43052), line 94 in async_validate: Validating permissions...
+[13.3027484416961670] 2019-07-23 14:16:15,243 - INFO - musicbot.bot | In bot.py::MainThread(43052), line 966 in on_ready: Connected: 602970306063237121/VoidMusic#0115
+[13.3037495613098145] 2019-07-23 14:16:15,244 - INFO - musicbot.bot | In bot.py::MainThread(43052), line 974 in on_ready: Owner:     555380125521281045/nikola06#6739
+
+[13.3047490119934082] 2019-07-23 14:16:15,245 - INFO - musicbot.bot | In bot.py::MainThread(43052), line 977 in on_ready: Guild List:
+[13.3057494163513184] 2019-07-23 14:16:15,246 - INFO - musicbot.bot | In bot.py::MainThread(43052), line 981 in on_ready:  - Void Craft
+[13.3077487945556641] 2019-07-23 14:16:15,248 - INFO - musicbot.bot | In bot.py::MainThread(43052), line 1024 in on_ready: Bound to text channels:
+[13.3087491989135742] 2019-07-23 14:16:15,249 - INFO - musicbot.bot | In bot.py::MainThread(43052), line 1025 in <listcomp>:  - Void Craft/void-music-start
+[13.3107500076293945] 2019-07-23 14:16:15,251 - INFO - musicbot.bot | In bot.py::MainThread(43052), line 1050 in on_ready: Autojoining voice channels:
+[13.3117492198944092] 2019-07-23 14:16:15,252 - INFO - musicbot.bot | In bot.py::MainThread(43052), line 1051 in <listcomp>:  - Void Craft/VoidMusic
+[13.3147494792938232] 2019-07-23 14:16:15,255 - INFO - musicbot.bot | In bot.py::MainThread(43052), line 279 in _join_startup_channels: Attempting to join Void Craft/VoidMusic
+[14.0647883415222168] 2019-07-23 14:16:16,005 - DEBUG - musicbot.bot | In bot.py::MainThread(43052), line 731 in deserialize_queue: Deserializing queue for 599704265870540820
+[15.3938663005828857] 2019-07-23 14:16:17,334 - DEBUG - musicbot.bot | In bot.py::MainThread(43052), line 423 in get_player: Created player via deserialization for guild 599704265870540820 with 0 entries
+[15.3938663005828857] 2019-07-23 14:16:17,334 - INFO - musicbot.bot | In bot.py::MainThread(43052), line 295 in _join_startup_channels: Joined Void Craft/VoidMusic
+[15.3968653678894043] 2019-07-23 14:16:17,337 - DEBUG - musicbot.bot | In bot.py::MainThread(43052), line 530 in on_player_stop: Running on_player_stop

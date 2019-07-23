@@ -1,0 +1,174 @@
+[190.011501312] 2019-07-23 14:17:28,887 - INFO - launcher: Starting sanity checks
+[191.011428833] 2019-07-23 14:17:28,888 - INFO - launcher: Checking for Python 3.5+
+[192.011833191] 2019-07-23 14:17:28,889 - INFO - launcher: Checking console encoding
+[192.011833191] 2019-07-23 14:17:28,889 - INFO - launcher: Setting console encoding to UTF-8
+[193.011045456] 2019-07-23 14:17:28,890 - INFO - launcher: Ensuring we're in the right environment
+[206.012487411] 2019-07-23 14:17:28,903 - INFO - launcher: Adding local bins/ folder to path
+[3394.191026688] 2019-07-23 14:17:32,091 - INFO - launcher: Required checks passed.
+[3396.189451218] 2019-07-23 14:17:32,093 - INFO - launcher: Optional checks passed.
+[3397.190809250] 2019-07-23 14:17:32,094 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[7.5894253253936768] 2019-07-23 14:17:36,286 - WARNING - musicbot.config | In config.py::MainThread(46304), line 120 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[7.5914242267608643] 2019-07-23 14:17:36,288 - INFO - musicbot.config | In config.py::MainThread(46304), line 131 in run_checks: Using i18n: config/i18n/en.json
+[7.6004421710968018] 2019-07-23 14:17:36,297 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 226 in _setup_logging: Set logging level to INFO
+[7.6094274520874023] 2019-07-23 14:17:36,306 - DEBUG - musicbot.json | In json.py::MainThread(46304), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[7.8204371929168701] 2019-07-23 14:17:36,517 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 91 in __init__: Starting MusicBot release-120519
+[7.8224413394927979] 2019-07-23 14:17:36,519 - WARNING - musicbot.bot | In bot.py::MainThread(46304), line 94 in __init__: Autoplaylist is empty, disabling.
+[10.9268019199371338] 2019-07-23 14:17:39,624 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 949 in on_ready: Connection established, ready to go.
+[10.9273025989532471] 2019-07-23 14:17:39,624 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 340 in _cache_app_info: Caching app info
+[11.0993273258209229] 2019-07-23 14:17:39,796 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 771 in _scheck_ensure_env: Ensuring data folders exist
+[11.1043252944946289] 2019-07-23 14:17:39,801 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 787 in _scheck_server_permissions: Checking server permissions
+[11.1048240661621094] 2019-07-23 14:17:39,802 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 791 in _scheck_autoplaylist: Auditing autoplaylist
+[11.1053261756896973] 2019-07-23 14:17:39,802 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 795 in _scheck_configs: Validating config
+[11.1053261756896973] 2019-07-23 14:17:39,802 - DEBUG - musicbot.config | In config.py::MainThread(46304), line 228 in async_validate: Validating options...
+[11.1058251857757568] 2019-07-23 14:17:39,803 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 798 in _scheck_configs: Validating permissions config
+[11.1058251857757568] 2019-07-23 14:17:39,803 - DEBUG - musicbot.permissions | In permissions.py::MainThread(46304), line 94 in async_validate: Validating permissions...
+[11.1063237190246582] 2019-07-23 14:17:39,803 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 966 in on_ready: Connected: 602970306063237121/VoidMusic#0115
+[11.1078250408172607] 2019-07-23 14:17:39,805 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 974 in on_ready: Owner:     555380125521281045/nikola06#6739
+
+[11.1088247299194336] 2019-07-23 14:17:39,806 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 977 in on_ready: Guild List:
+[11.1098256111145020] 2019-07-23 14:17:39,807 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 981 in on_ready:  - Void Craft
+[11.1113255023956299] 2019-07-23 14:17:39,808 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 1024 in on_ready: Bound to text channels:
+[11.1123306751251221] 2019-07-23 14:17:39,809 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 1025 in <listcomp>:  - Void Craft/void-music-start
+[11.1138310432434082] 2019-07-23 14:17:39,811 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 1050 in on_ready: Autojoining voice channels:
+[11.1148428916931152] 2019-07-23 14:17:39,812 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 1051 in <listcomp>:  - Void Craft/VoidMusic
+[11.1163258552551270] 2019-07-23 14:17:39,813 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 279 in _join_startup_channels: Attempting to join Void Craft/VoidMusic
+[11.7789063453674316] 2019-07-23 14:17:40,476 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 731 in deserialize_queue: Deserializing queue for 599704265870540820
+[13.2169864177703857] 2019-07-23 14:17:41,914 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 423 in get_player: Created player via deserialization for guild 599704265870540820 with 0 entries
+[13.2179863452911377] 2019-07-23 14:17:41,915 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 295 in _join_startup_channels: Joined Void Craft/VoidMusic
+[13.3369934558868408] 2019-07-23 14:17:42,034 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 530 in on_player_stop: Running on_player_stop
+[141.2805538177490234] 2019-07-23 14:19:49,977 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !disconnect
+[145.9148125648498535] 2019-07-23 14:19:54,612 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !summon
+[145.9398138523101807] 2019-07-23 14:19:54,637 - ERROR - musicbot.bot | In bot.py::MainThread(46304), line 2809 in on_message: Error in summon: CommandError: You are not in a voice channel!
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\bot.py", line 2787, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\bot.py", line 1895, in cmd_summon
+    raise exceptions.CommandError(self.str.get('cmd-summon-novc', 'You are not connected to voice. Try joining a voice channel!'))
+musicbot.exceptions.CommandError: You are not in a voice channel!
+[157.6319470405578613] 2019-07-23 14:20:06,329 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !summon
+[158.6087620258331299] 2019-07-23 14:20:07,306 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 731 in deserialize_queue: Deserializing queue for 599704265870540820
+[158.9613249301910400] 2019-07-23 14:20:07,658 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 423 in get_player: Created player via deserialization for guild 599704265870540820 with 0 entries
+[158.9618253707885742] 2019-07-23 14:20:07,659 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 1926 in cmd_summon: Joining Void Craft/VoidMusic
+[159.0118327140808105] 2019-07-23 14:20:07,709 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 530 in on_player_stop: Running on_player_stop
+[171.9954900741577148] 2019-07-23 14:20:20,692 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !p gamenig music
+[177.4470882415771484] 2019-07-23 14:20:26,144 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 1400 in cmd_play: {'_type': 'url', 'url': 'ytsearch:gamenig music', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'gamenig music', 'webpage_url_basename': 'gamenig music', 'extractor_key': 'Generic'}
+[181.6236143112182617] 2019-07-23 14:20:30,320 - DEBUG - musicbot.entry | In entry.py::MainThread(46304), line 56 in get_ready_future: Created future for None
+[181.6291155815124512] 2019-07-23 14:20:30,326 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 622 in on_player_entry_added: Running on_player_entry_added
+[181.6296143531799316] 2019-07-23 14:20:30,326 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 707 in serialize_queue: Serializing queue for 599704265870540820
+[181.6431183815002441] 2019-07-23 14:20:30,340 - INFO - musicbot.entry | In entry.py::MainThread(46304), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=LaQj636PJh0
+[183.6216888427734375] 2019-07-23 14:20:32,318 - DEBUG - musicbot.entry | In entry.py::MainThread(46304), line 56 in get_ready_future: Created future for None
+[191.6736705303192139] 2019-07-23 14:20:40,370 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !q
+[202.2689437866210938] 2019-07-23 14:20:50,966 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !p Best Music Mix ♫ No Copyright EDM ♫ Gaming Music Trap, House, Dubstep to be played
+[204.9567787647247314] 2019-07-23 14:20:53,654 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 1400 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Best Music Mix ♫ No Copyright EDM ♫ Gaming Music Trap, House, Dubstep to be played', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Best Music Mix ♫ No Copyright EDM ♫ Gaming Music Trap, House, Dubstep to be played', 'webpage_url_basename': 'Best Music Mix ♫ No Copyright EDM ♫ Gaming Music Trap, House, Dubstep to be played', 'extractor_key': 'Generic'}
+[209.6624515056610107] 2019-07-23 14:20:58,359 - DEBUG - musicbot.entry | In entry.py::MainThread(46304), line 56 in get_ready_future: Created future for None
+[209.6679518222808838] 2019-07-23 14:20:58,365 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 622 in on_player_entry_added: Running on_player_entry_added
+[209.6684515476226807] 2019-07-23 14:20:58,365 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 707 in serialize_queue: Serializing queue for 599704265870540820
+[209.6744537353515625] 2019-07-23 14:20:58,371 - INFO - musicbot.entry | In entry.py::MainThread(46304), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=hNZNzmGdw3U
+[224.4536168575286865] 2019-07-23 14:21:13,150 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !s
+[224.4581179618835449] 2019-07-23 14:21:13,155 - ERROR - musicbot.bot | In bot.py::MainThread(46304), line 2809 in on_message: Error in skip: CommandError: Can't skip! The player is not playing!
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\bot.py", line 2787, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\bot.py", line 2057, in cmd_skip
+    raise exceptions.CommandError(self.str.get('cmd-skip-none', "Can't skip! The player is not playing!"), expire_in=20)
+musicbot.exceptions.CommandError: Can't skip! The player is not playing!
+[234.5406694412231445] 2019-07-23 14:21:23,237 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !play Best Music Mix ♫ No Copyright EDM ♫ Gaming Music Trap, House, Dubstep to be played
+[262.3928797245025635] 2019-07-23 14:21:51,090 - INFO - musicbot.entry | In entry.py::MainThread(46304), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=LaQj636PJh0
+[262.4573886394500732] 2019-07-23 14:21:51,154 - FFMPEG - musicbot.player | In player.py::MainThread(46304), line 290 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-LaQj636PJh0-Best_Music_Mix_No_Copyright_EDM_Gaming_Music_Trap_House_Dubstep.webm
+[267.0986561775207520] 2019-07-23 14:21:55,795 - DEBUG - musicbot.player | In player.py::MainThread(46304), line 303 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x04F98070> using <discord.voice_client.VoiceClient object at 0x04A79A50>
+[267.1051566600799561] 2019-07-23 14:21:55,802 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 458 in on_player_play: Running on_player_play
+[267.1171588897705078] 2019-07-23 14:21:55,814 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 707 in serialize_queue: Serializing queue for 599704265870540820
+[269.7348108291625977] 2019-07-23 14:21:58,432 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 1400 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Best Music Mix ♫ No Copyright EDM ♫ Gaming Music Trap, House, Dubstep to be played', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Best Music Mix ♫ No Copyright EDM ♫ Gaming Music Trap, House, Dubstep to be played', 'webpage_url_basename': 'Best Music Mix ♫ No Copyright EDM ♫ Gaming Music Trap, House, Dubstep to be played', 'extractor_key': 'Generic'}
+[274.7035868167877197] 2019-07-23 14:22:03,400 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 622 in on_player_entry_added: Running on_player_entry_added
+[274.7045879364013672] 2019-07-23 14:22:03,401 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 707 in serialize_queue: Serializing queue for 599704265870540820
+[279.5575389862060547] 2019-07-23 14:22:08,254 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !s
+[279.5736503601074219] 2019-07-23 14:22:08,270 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 534 in on_player_finished_playing: Running on_player_finished_playing
+[279.9744801521301270] 2019-07-23 14:22:08,671 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 707 in serialize_queue: Serializing queue for 599704265870540820
+[279.9784808158874512] 2019-07-23 14:22:08,675 - DEBUG - musicbot.entry | In entry.py::MainThread(46304), line 56 in get_ready_future: Created future for None
+[279.9789812564849854] 2019-07-23 14:22:08,676 - DEBUG - musicbot.entry | In entry.py::MainThread(46304), line 56 in get_ready_future: Created future for None
+[279.9814815521240234] 2019-07-23 14:22:08,678 - INFO - musicbot.entry | In entry.py::MainThread(46304), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=hNZNzmGdw3U
+[323.2698183059692383] 2019-07-23 14:22:51,967 - WARNING - musicbot.player | In player.py::MainThread(46304), line 271 in _play: Failed to get entry, retrying
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\downloader\common.py", line 202, in try_rename
+    os.rename(encodeFilename(old_filename), encodeFilename(new_filename))
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'audio_cache\\youtube-hNZNzmGdw3U-Gaming_Music_Mix_2019_Best_Of_EDM_Trap_House_Dubstep.webm.part' -> 'audio_cache\\youtube-hNZNzmGdw3U-Gaming_Music_Mix_2019_Best_Of_EDM_Trap_House_Dubstep.webm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\entry.py", line 297, in _really_download
+    result = await self.playlist.downloader.extract_info(self.playlist.loop, self.url, download=True)
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\downloader.py", line 84, in extract_info
+    return await loop.run_in_executor(self.thread_pool, functools.partial(self.unsafe_ytdl.extract_info, *args, **kwargs))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 807, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 861, in process_ie_result
+    return self.process_video_result(ie_result, download=download)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 1642, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 1915, in process_info
+    success = dl(filename, info_dict)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 1854, in dl
+    return fd.download(name, info)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\downloader\common.py", line 366, in download
+    return self.real_download(filename, info_dict)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\downloader\http.py", line 342, in real_download
+    return download()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\downloader\http.py", line 323, in download
+    self.try_rename(ctx.tmpfilename, ctx.filename)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\downloader\common.py", line 204, in try_rename
+    self.report_error('unable to rename file: %s' % error_to_compat_str(err))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\downloader\common.py", line 165, in report_error
+    self.ydl.report_error(*args, **kargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 624, in report_error
+    self.trouble(error_message, tb)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 594, in trouble
+    raise DownloadError(message, exc_info)
+youtube_dl.utils.DownloadError: ERROR: unable to rename file: [WinError 32] The process cannot access the file because it is being used by another process: 'audio_cache\\youtube-hNZNzmGdw3U-Gaming_Music_Mix_2019_Best_Of_EDM_Trap_House_Dubstep.webm.part' -> 'audio_cache\\youtube-hNZNzmGdw3U-Gaming_Music_Mix_2019_Best_Of_EDM_Trap_House_Dubstep.webm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\player.py", line 269, in _play
+    entry = await self.playlist.get_next_entry()
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\playlist.py", line 334, in get_next_entry
+    return await entry.get_ready_future()
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\entry.py", line 217, in _download
+    await self._really_download()
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\entry.py", line 300, in _really_download
+    raise ExtractionError(e)
+musicbot.exceptions.ExtractionError: ERROR: unable to rename file: [WinError 32] The process cannot access the file because it is being used by another process: 'audio_cache\\youtube-hNZNzmGdw3U-Gaming_Music_Mix_2019_Best_Of_EDM_Trap_House_Dubstep.webm.part' -> 'audio_cache\\youtube-hNZNzmGdw3U-Gaming_Music_Mix_2019_Best_Of_EDM_Trap_House_Dubstep.webm'
+[325.1693992614746094] 2019-07-23 14:22:53,866 - INFO - musicbot.entry | In entry.py::MainThread(46304), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=hNZNzmGdw3U
+[562.4331662654876709] 2019-07-23 14:26:51,130 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !q
+[562.4716703891754150] 2019-07-23 14:26:51,168 - ERROR - musicbot.bot | In bot.py::MainThread(46304), line 2832 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\bot.py", line 2787, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\bot.py", line 2234, in cmd_queue
+    song_progress = ftimedelta(timedelta(seconds=player.progress))
+TypeError: unsupported type for timedelta seconds component: NoneType
+[568.6843168735504150] 2019-07-23 14:26:57,381 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !s
+[568.6908190250396729] 2019-07-23 14:26:57,388 - ERROR - musicbot.bot | In bot.py::MainThread(46304), line 2832 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\bot.py", line 2787, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\bot.py", line 2104, in cmd_skip
+    current_entry.title,
+AttributeError: 'NoneType' object has no attribute 'title'
+[590.5751872062683105] 2019-07-23 14:27:19,272 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !p Best Music Mix ♫ No Copyright EDM ♫ Gaming Music Trap, House, Dubstep
+[592.8243389129638672] 2019-07-23 14:27:21,521 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 1400 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Best Music Mix ♫ No Copyright EDM ♫ Gaming Music Trap, House, Dubstep', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Best Music Mix ♫ No Copyright EDM ♫ Gaming Music Trap, House, Dubstep', 'webpage_url_basename': 'Best Music Mix ♫ No Copyright EDM ♫ Gaming Music Trap, House, Dubstep', 'extractor_key': 'Generic'}
+[597.5891950130462646] 2019-07-23 14:27:26,286 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 622 in on_player_entry_added: Running on_player_entry_added
+[597.5896940231323242] 2019-07-23 14:27:26,286 - DEBUG - musicbot.bot | In bot.py::MainThread(46304), line 707 in serialize_queue: Serializing queue for 599704265870540820
+[612.8414304256439209] 2019-07-23 14:27:41,538 - INFO - musicbot.bot | In bot.py::MainThread(46304), line 2680 in on_message: 555380125521281045/nikola06#6739: !s
+[612.8499321937561035] 2019-07-23 14:27:41,547 - ERROR - musicbot.bot | In bot.py::MainThread(46304), line 2832 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\bot.py", line 2787, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\Admin\Desktop\VoidMusic\MusicBot\musicbot\bot.py", line 2104, in cmd_skip
+    current_entry.title,
+AttributeError: 'NoneType' object has no attribute 'title'
